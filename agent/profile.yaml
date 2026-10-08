@@ -1,0 +1,10 @@
+description: QA guy — Quality assurance on the work of BT
+description_auto: false
+ui_meta:
+  hermes-bots:
+    shape: blobatar
+    color: '#f97316'
+    imageKind: shape
+    title: QA guy
+    created: 1787155125832
+    chat: 20260819_110043_2ccc3b

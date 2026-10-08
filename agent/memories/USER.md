@@ -1,0 +1,1 @@
+Cody enjoys dark, heavy-irony humor, including government satire.

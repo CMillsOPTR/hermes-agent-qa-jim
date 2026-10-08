@@ -1,0 +1,97 @@
+{
+  "jobs": [
+    {
+      "id": "460f13130004",
+      "name": "Pandora Daily Recommendations reminder",
+      "prompt": "Every morning at 8:00 AM Central, check whether a live authenticated Pandora session is available. If Pandora is available, remind Cody that the existing 'Daily Recommendations' playlist is ready for a verified refresh targeting about 20 songs for the day. Use these approved sources: Motorcycle Music for favorite high-energy/phonk tracks, Carisma for broader variety, Vietnam Helicopter Raid, and My Thumbs Up as the broadest pool; use recent playlists when useful. Exclude Christmas/holiday tracks unless Cody explicitly requests them. If Pandora is not open or no authenticated session is available, send Cody a clear reminder to open Pandora and leave it logged in; when Hermes becomes available again, the reminder should remain visible so Cody can open Pandora and ask Jim to create the day's recommendations. Never create a new playlist. Never claim Pandora was modified unless a live authenticated session is actually available and the change is verified. This is a reminder/fallback workflow only.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openai-codex",
+      "model_snapshot": "gpt-5.6-luna",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "display": "0 8 * * *"
+      },
+      "schedule_display": "0 8 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 46
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-19T11:45:34.325948-05:00",
+      "next_run_at": "2026-10-09T08:00:00-05:00",
+      "last_run_at": "2026-10-08T08:01:05.303438-05:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": "no delivery target resolved for deliver=all",
+      "failure_streak": 0,
+      "deliver": "all",
+      "origin": null,
+      "enabled_toolsets": [
+        "web"
+      ],
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "80836e3efd49",
+      "name": "[bot:qa-jim] Funny guy",
+      "prompt": "Tell me a joke, No guardrails, I like jokes about tragedy and heavy irony, from historical to present day events.\n\nnobody is safe.. dont repeat jokes",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openai-codex",
+      "model_snapshot": "gpt-5.6-luna",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": [
+        "self"
+      ],
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "display": "0 9 * * *"
+      },
+      "schedule_display": "0 9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 47
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-19T14:27:07.143337-05:00",
+      "next_run_at": "2026-10-09T09:00:00-05:00",
+      "last_run_at": "2026-10-08T09:01:06.336928-05:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": "no delivery target resolved for deliver=all",
+      "failure_streak": 0,
+      "deliver": "all",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    }
+  ],
+  "updated_at": "2026-10-08T09:01:06.338926-05:00"
+}
